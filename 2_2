@@ -1,0 +1,3 @@
+# Python for Informatics 2.7 Book Exercise 2.2
+name = raw_input('Enter Your Name:\n')
+print 'Welcome', name
