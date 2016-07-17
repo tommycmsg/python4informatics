@@ -1,0 +1,7 @@
+# Python for Informatics Book Exercise 3.1
+# Rewrite Pay Computation to Give the Employee 1.5 Times the Hourly Rate for Hours Worked Above 40.
+input = raw_input('Enter Hours: ')
+hours = float(input)
+input = raw_input('Enter Rate: ')
+rate = float(input)
+print hours * rate
