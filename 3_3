@@ -1,0 +1,28 @@
+#Python for Informatics Book Exercise 3.3 (Suggestions for improving Pythonic elegance Welcome!)
+
+inp = raw_input('Enter Score: ')
+score = float(inp)
+
+if score > 1.0 or score < 0.0:
+   
+    print 'error, out of range. please enter numeric input between 0.0 and 1.0'
+
+if score >= .9:
+
+    print 'A'
+
+elif score >= .8:
+
+    print 'B'
+    
+elif score >= .7:
+
+    print 'C'
+
+elif score >= .6:
+
+    print 'D'
+    
+else:
+
+    print 'F'
